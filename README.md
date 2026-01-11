@@ -1,4 +1,4 @@
-# MUI App Starter
+# React Admin Dashboard
 
 This is a starter app for building web applications with MUI, React, and TypeScript.
 
