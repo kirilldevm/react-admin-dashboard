@@ -70,13 +70,7 @@ export default function Users() {
         <button onClick={() => setOpen(true)}>Add New User</button>
       </div>
       <DataTable slug='users' columns={columns} rows={userRows} />
-      {/* TEST THE API */}
 
-      {/* {isLoading ? (
-        "Loading..."
-      ) : (
-        <DataTable slug="users" columns={columns} rows={data} />
-      )} */}
       {open && <Add slug='user' columns={columns} setOpen={setOpen} />}
     </div>
   );
